@@ -11,6 +11,7 @@
       {
         "id": 2,
         "type": "light",
+        "location": [80,17,494,562],
         "upperLimit":"000001",
         "lowerLimit":"000001",
         "preset_boxes": [[149, 27, 201, 76],
