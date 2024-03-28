@@ -1,0 +1,24 @@
+{
+    "url": "path2newpic",
+    "data": [
+      {
+        "id": 1,
+        "time": "timestep",
+        "result": "on",
+        "status": 0
+      },
+      {
+        "id": 2,
+        "time": "timestep",
+        "result": "on",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "time": "timestep",
+        "result": "50",
+        "status": 0
+      }
+    ]
+}
+

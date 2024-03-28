@@ -1,0 +1,51 @@
+{
+    "url": "com.jpg",
+    "data": [
+      {
+        "id": 1,                
+        "type": "buttom",        
+        "location": [854,1,1342,413], 
+        "upperLimit":"1",     
+        "lowerLimit":"0"        
+      },
+      {
+        "id": 2,
+        "type": "light",
+        "location": [80,17,494,562],
+        "upperLimit":"000001",
+        "lowerLimit":"000001",
+        "preset_boxes": [[149, 27, 201, 76],
+                        [238, 27, 289, 77],  
+                        [328, 26, 381, 80],  
+                        [149, 119, 206, 169],  
+                        [239, 119, 297, 172],  
+                        [326, 114, 389, 173]]
+      },
+      {
+        "id": 3,
+        "type": "meter",
+        "location": [503,344,907,740],
+        "zeroPoint": [621, 638],
+        "unit":"°c",
+        "upperLimit":"40",
+        "lowerLimit":"20"
+      },
+      {
+        "id": 4,
+        "type": "iot",
+        "deviceNname": "温度",
+        "value":21,
+        "unit":"°c",
+        "status":0
+      },
+      {
+        "id": 5,
+        "type": "iot",
+        "deviceNname": "电压",
+        "value":31,
+        "unit":"V",
+        "status":0
+      }
+    ]
+}
+

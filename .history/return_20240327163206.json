@@ -1,0 +1,18 @@
+{
+    "url": "newpicpath",
+    "data": [
+      {
+        "type": "buttom",
+        "location": [0,0,10,10]
+      },
+      {
+        "type": "light",
+        "location": [10,10,20,20]
+      },
+      {
+        "type": "meter",
+        "location": [20,20,30,30]
+      }
+    ]
+}
+

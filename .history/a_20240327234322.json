@@ -1,0 +1,35 @@
+{
+    "url": "path",
+    "data": [
+      {
+        "id": 1,                
+        "type": "buttom",        
+        "location": [0,0,10,10], 
+        "upperLimit":"on",     
+        "lowerLimit":"on"        
+      },
+      {
+        "id": 2,
+        "type": "light",
+        "location": [10,10,20,20],
+        "upperLimit":"on",
+        "lowerLimit":"on"
+      },
+      {
+        "id": 3,
+        "type": "meter",
+        "location": [20,20,30,30],
+        "zeroPoint": [258, 623],
+        "upperLimit":"40",
+        "lowerLimit":"20"
+      },
+      {
+        "id": 4,
+        "type": "iot",
+        "deviceNname": "aa",
+        "value":10,
+        "status":0
+      }
+    ]
+}
+

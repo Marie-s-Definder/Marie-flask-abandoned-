@@ -1,0 +1,21 @@
+{
+    "url": "path",
+    "data": [
+      {
+        "id": 1,
+        "type": "buttom",
+        "location": [0,0,10,10]
+      },
+      {
+        "id": 2,
+        "type": "light",
+        "location": [10,10,20,20]
+      },
+      {
+        "id": 3,
+        "type": "meter",
+        "location": [20,20,30,30]
+      }
+    ]
+}
+

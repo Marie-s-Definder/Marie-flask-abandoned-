@@ -1,0 +1,18 @@
+{
+    "url": "path",
+    "data": [
+      {
+        "type": "home",
+        "location": "home",
+        "number": "555-1234"
+      },
+      {
+        "type": "work",
+        "number": "555-5678"
+      },
+      {
+        "type": "work",
+        "number": "555-5678"
+      }
+    ]
+  }

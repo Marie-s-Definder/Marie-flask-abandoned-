@@ -1,0 +1,34 @@
+{
+    "url": "path",
+    "data": [
+      {
+        "id": 1,                 //先创建一条新数据把机器人id和设备名称填上，把id给我，其他数据等我发给你之后再添-----这个从设备表里面读
+        "type": "buttom",        //从模型表里面读 
+        "location": [0,0,10,10], //从模型表里面读 
+        "upperLimit":"on",       //从模型表里面读 
+        "lowerLimit":"on"        //从模型表里面读 
+      },
+      {
+        "id": 2,
+        "type": "light",
+        "location": [10,10,20,20],
+        "upperLimit":"on",
+        "lowerLimit":"on"
+      },
+      {
+        "id": 3,
+        "type": "meter",
+        "location": [20,20,30,30],
+        "upperLimit":"10",
+        "lowerLimit":"30"
+      },
+      {
+        "id": 4,
+        "type": "iot",
+        "deviceNname": "aa",
+        "value":10,
+        "status":0
+      }
+    ]
+}
+
