@@ -77,15 +77,15 @@ def Recognition():
             # image, Width, Height = slide(pic, item['location'])
             image = pic
             # 获取6个结果
-            thebox = []
+            box = []
             one = [int(x) for x in item['preset_boxes1'].split(',')]
             two = [int(x) for x in item['preset_boxes2'].split(',')]
             three = [int(x) for x in item['preset_boxes3'].split(',')]
             four = [int(x) for x in item['preset_boxes4'].split(',')]
             five =[int(x) for x in item['preset_boxes5'].split(',')]
             six = [int(x) for x in item['preset_boxes6'].split(',')]
-            thebox.append(one).append(two).append(three).append(four).append(five).append(six)
-            results, draw_boxes = yolov8m(image, preset_boxes=thebox)
+            box.append(one).append(two).append(three).append(four).append(five).append(six)
+            results, draw_boxes = yolov8m(image, preset_boxes=item['preset_boxes'])# 需要框输出，明天看看
             # 获取时间戳
             timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 

@@ -85,7 +85,7 @@ def Recognition():
             five =[int(x) for x in item['preset_boxes5'].split(',')]
             six = [int(x) for x in item['preset_boxes6'].split(',')]
             thebox.append(one).append(two).append(three).append(four).append(five).append(six)
-            results, draw_boxes = yolov8m(image, preset_boxes=thebox)
+            results, draw_boxes = yolov8m(image, preset_boxes=thebox)# 需要框输出，明天看看
             # 获取时间戳
             timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
